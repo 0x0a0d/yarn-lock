@@ -1,0 +1,30 @@
+{
+  "name": "yarn-lock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yarn.lock",
+    "lock",
+    "yarn"
+  ],
+  "author": "0x0a0d",
+  "description": "little tool to handler yarn.lock",
+  "repository": {
+    "url": "https://github.com/0x0a0d/yarn-lock",
+    "type": "git"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0"
+  },
+  "bin": {
+    "yarn-lock": "index.js"
+  }
+}

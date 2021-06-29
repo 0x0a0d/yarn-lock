@@ -1,5 +1,5 @@
 {
-  "name": "yarn-lock",
+  "name": "yarn-lock-clear",
   "version": "1.0.1-0",
   "main": "index.js",
   "license": "MIT",
@@ -25,6 +25,6 @@
     "@yarnpkg/lockfile": "^1.1.0"
   },
   "bin": {
-    "yarn-lock": "index.js"
+    "yarn-lock-clear": "index.js"
   }
 }

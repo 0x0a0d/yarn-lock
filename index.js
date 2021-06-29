@@ -8,7 +8,7 @@ const cwd = process.cwd()
 const params = process.argv.slice(2).reduce((o, param) => {
   if (param.startsWith('-')) {
     const [k, v] = ((p, i) => i === -1 ? [p, null] : [p.substr(0, i), p.substr(i + 1)])(param, param.indexOf('='))
-console.log(k, v)
+
     switch (k) {
       case '--file':
       case '--lock':
